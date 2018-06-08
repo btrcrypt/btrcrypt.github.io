@@ -1,0 +1,78 @@
+html, body {
+    width:100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width:100%;
+}
+
+slider {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    overflow: hidden;
+    position: absolute;
+}
+
+slider > * {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height:100%;
+    background:#1f1f1f;
+    animation: slide 12s infinite;
+    overflow:hidden;
+}
+
+slide:nth-child(1) {
+    left:0%;
+    animation-delay: -1s;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("http://www.wallpaperbetter.com/wallpaper/70/553/181/cats-photos-gallery-hi-res-1080P-wallpaper-middle-size.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(2) {
+    animation-delay: 3s;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://newevolutiondesigns.com/images/freebies/cat-wallpaper-7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(3) {
+    animation-delay: 5s;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("http://www.wallpapersdb.org/wallpapers/cats/cat_keyboard_1920x1080.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(4) {
+    animation-delay: 8s;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("http://bagliodelmarchese.com/wp-content/uploads/2018/04/best-how-to-get-dog-urine-smell-out-of-carpet-new-the-8-best-cat-pee-odor-and-stain-removal-products-to-buy-in-2018-and-modern-how-to-get-dog-urine-smell-out-of-carpet-ideas-lovely-of-how-to.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+slide p {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 340px;
+    color:#fff;
+}
+
+@keyframes slide {
+    0% {left:100%; width: 100%;}
+    5% {left:0%;}
+    25% {left:0%;}
+    30% {left:-100%; width:100%;}
+    30.0001% {left:-100%; width:0%;}
+    100% {left:100%; width:0%;}
+}
+/* ---------------------------------------------- */
