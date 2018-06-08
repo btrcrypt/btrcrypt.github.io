@@ -51,6 +51,7 @@ slide:nth-child(3) {
 }
 
 slide:nth-child(4) {
+    left:0%;
     animation-delay: 8s;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("http://bagliodelmarchese.com/wp-content/uploads/2018/04/best-how-to-get-dog-urine-smell-out-of-carpet-new-the-8-best-cat-pee-odor-and-stain-removal-products-to-buy-in-2018-and-modern-how-to-get-dog-urine-smell-out-of-carpet-ideas-lovely-of-how-to.jpg");
     background-size: cover;
